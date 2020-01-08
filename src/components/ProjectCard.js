@@ -15,11 +15,11 @@ function ProjectCard(props) {
                     <p className="card-text">{ props.description }</p>
                     <div className="row">
                         <div className="col-6">
-                            <a className="btn btn-outline-secondary" color={ "#00bfff" }
+                            <a className="btn btn-outline-secondary"
                                href={ props.pageLink }>View Project</a>
                         </div>
                         <div className="col-6">
-                            <a className="btn btn-outline-secondary" color={ "#00bfff" }
+                            <a className="btn btn-outline-secondary"
                                href={ props.repoLink }>
                                 <FontAwesomeIcon icon={['fab', props.gitHost.toLowerCase()]}/> { props.gitHost }
                             </a>
