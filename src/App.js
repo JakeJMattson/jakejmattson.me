@@ -2,10 +2,11 @@ import React from 'react';
 import './App.css';
 import NavigationBar from "./components/NavigationBar"
 import ProjectCard from "./components/ProjectCard";
+import FooterBar from "./components/FooterBar";
 
 function App() {
   return (
-      <body>
+      <div>
         <NavigationBar/>
         <ProjectCard
             title = "Demo Project"
@@ -15,7 +16,8 @@ function App() {
             repoLink = ""
             gitHost = "GitHub"
         />
-      </body>
+        <FooterBar/>
+      </div>
   );
 }
 
