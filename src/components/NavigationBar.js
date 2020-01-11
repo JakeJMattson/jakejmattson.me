@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function NavigationBar() {
-    return(
+    return (
         <nav className="navbar navbar-expand pt-3 pb-4">
             <span className="navbar-brand">Code Portfolio</span>
             <div className="collapse navbar-collapse justify-content-end">
