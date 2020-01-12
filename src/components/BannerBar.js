@@ -1,6 +1,6 @@
 import React from "react";
 
-function BannerBar() {
+export default function BannerBar() {
     return (
         <div className="bg-light pb-5 pt-2 border-top border-bottom">
             <div style={{ position: "relative" }}>
@@ -28,5 +28,3 @@ function BannerBar() {
         </div>
     );
 }
-
-export default BannerBar

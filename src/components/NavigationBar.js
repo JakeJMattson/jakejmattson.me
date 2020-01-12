@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function NavigationBar() {
+export default function NavigationBar() {
     return (
         <nav className="navbar navbar-expand pt-3 pb-4">
             <span className="navbar-brand">Code Portfolio</span>
@@ -30,5 +30,3 @@ function NavigationBar() {
         </nav>
     );
 }
-
-export default NavigationBar

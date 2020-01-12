@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function ProjectCard(props) {
+export default function ProjectCard(props) {
     return (
         <div className="col-12 col-md-6 col-lg-4 pt-5 pb-3">
             <div className="card mx-auto" style={{ maxWidth: 400 }}>
@@ -30,5 +30,3 @@ function ProjectCard(props) {
         </div>
     );
 }
-
-export default ProjectCard
