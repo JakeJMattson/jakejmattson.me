@@ -4,11 +4,13 @@ import NavigationBar from "./components/NavigationBar"
 import ProjectCard from "./components/ProjectCard";
 import FooterBar from "./components/FooterBar";
 import BannerBar from "./components/BannerBar";
+import PageManager from "./components/PageManager";
 
 function App() {
     return (
         <div>
             <NavigationBar/>
+            <PageManager/>
             <BannerBar/>
             <span className="navbar-brand" style={{ fontSize: "xx-large" }}>Personal Projects</span>
             <div className="row">
