@@ -1,4 +1,4 @@
-import ProjectCard from "../ProjectCard";
+import { GitHubProjectCard, GitLabProjectCard } from "../ProjectCard";
 import React from "react";
 
 export default function ProjectPage() {
@@ -6,80 +6,65 @@ export default function ProjectPage() {
         <div>
             <span className="navbar-brand" style={{ fontSize: "xx-large" }}>Personal Projects</span>
             <div className="row">
-                <ProjectCard
+                <GitHubProjectCard
                     title="TouchControl"
                     description="Control at your fingertips."
                     imageLink=""
                     pageLink=""
-                    repoLink="https://github.com/JakeJMattson/TouchControl/"
-                    gitHost="GitHub"
                 />
-                <ProjectCard
+                <GitHubProjectCard
                     title="EmbedBot"
                     description="A Discord bot for managing embeds."
                     imageLink=""
                     pageLink=""
-                    repoLink="https://github.com/JakeJMattson/EmbedBot/"
-                    gitHost="GitHub"
                 />
-                <ProjectCard
+                <GitHubProjectCard
                     title="PixelDetails"
                     description="Mouse location based pixel details."
                     imageLink=""
                     pageLink=""
-                    repoLink="https://github.com/JakeJMattson/PixelDetails/"
-                    gitHost="GitHub"
                 />
-                <ProjectCard
+                <GitHubProjectCard
                     title="AnyToImage"
                     description="Convert files to images."
                     imageLink=""
                     pageLink=""
-                    repoLink="https://github.com/JakeJMattson/AnyToImage/"
-                    gitHost="GitHub"
                 />
-                <ProjectCard
+                <GitHubProjectCard
                     title="SpamBot"
                     description="Multiplying automated browsers."
                     imageLink=""
                     pageLink=""
-                    repoLink="https://github.com/JakeJMattson/SpamBot/"
-                    gitHost="GitHub"
                 />
-                <ProjectCard
+                <GitHubProjectCard
                     title="FacialRecognition"
                     description="Facial detection and recognition."
                     imageLink=""
                     pageLink=""
-                    repoLink="https://github.com/JakeJMattson/FacialRecognition/"
-                    gitHost="GitHub"
                 />
             </div>
             <span className="navbar-brand" style={{ fontSize: "xx-large" }}>Contributed Projects</span>
             <div className="row">
-                <ProjectCard
+                <GitLabProjectCard
                     title="KUtils"
                     description="A Kotlin Discord API."
                     imageLink=""
                     pageLink=""
                     repoLink=""
-                    gitHost="GitLab"
                 />
-                <ProjectCard
+                <GitLabProjectCard
                     title="WarmBot"
                     description="A report management discord bot."
                     imageLink=""
                     pageLink=""
                     repoLink=""
-                    gitHost="GitLab"
                 />
-                <ProjectCard
+                <GitLabProjectCard
                     title="HotBot"
                     description="A programming server discord bot."
                     imageLink=""
                     pageLink=""
                     repoLink=""
-                    gitHost="GitLab"
                 />
             </div>
         </div>

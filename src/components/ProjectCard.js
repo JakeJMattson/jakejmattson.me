@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default function ProjectCard(props) {
+function ProjectCard(props) {
     return (
         <div className="col-12 col-md-6 col-lg-4 pt-5 pb-3">
             <div className="card mx-auto" style={{ maxWidth: 400 }}>
@@ -29,4 +29,26 @@ export default function ProjectCard(props) {
             </div>
         </div>
     );
+}
+
+export function GitHubProjectCard(props) {
+    return <ProjectCard
+        title={props.title}
+        description={props.description}
+        imageLink={props.imageLink}
+        pageLink={props.pageLink}
+        repoLink={"https://github.com/JakeJMattson/" + props.title}
+        gitHost="GitHub"
+    />
+}
+
+export function GitLabProjectCard(props) {
+    return <ProjectCard
+        title={props.title}
+        description={props.description}
+        imageLink={props.imageLink}
+        pageLink={props.pageLink}
+        repoLink={props.repoLink}
+        gitHost="GitLab"
+    />
 }
