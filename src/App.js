@@ -29,24 +29,22 @@ const IndexPage = () => {
 
 
     return (
-        <div className={theme}>
-            <Router>
-                <Navbar bg="primary" variant={theme}>
-                    <Nav className="mr-auto">
-                        <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="projects">projects</Nav.Link>
-                    </Nav>
-                </Navbar>
-                <Switch>
-                    <Route path="/projects">
-                        <ProjectPage/>
-                    </Route>
-                    <Route path="/">
-                        <HomePage/>
-                    </Route>
-                </Switch>
-            </Router>
-        </div>
+        <Router>
+            <Navbar bg="primary">
+                <Nav className="mr-auto">
+                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="projects">projects</Nav.Link>
+                </Nav>
+            </Navbar>
+            <Switch>
+                <Route path="/projects">
+                    <ProjectPage/>
+                </Route>
+                <Route path="/">
+                    <HomePage/>
+                </Route>
+            </Switch>
+        </Router>
     );
 };
 
