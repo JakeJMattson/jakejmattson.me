@@ -54,21 +54,21 @@ export default function ProjectPage() {
                     description="A Kotlin Discord API."
                     imageLink={KUtils}
                     pageLink=""
-                    repoLink=""
+                    repoLink="https://gitlab.com/Aberrantfox/KUtils"
                 />
                 <GitLabProjectCard
                     title="ModMail"
                     description="A report management discord bot."
                     imageLink={ModMail}
                     pageLink=""
-                    repoLink=""
+                    repoLink="https://gitlab.com/Aberrantfox/WarmBot"
                 />
                 <GitLabProjectCard
                     title="HotBot"
                     description="A programming server discord bot."
                     imageLink={HotBot}
                     pageLink=""
-                    repoLink=""
+                    repoLink="https://gitlab.com/Aberrantfox/hotbot"
                 />
             </div>
         </div>
