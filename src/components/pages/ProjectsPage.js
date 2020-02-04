@@ -1,6 +1,10 @@
 import React                                    from "react";
 import { GitHubProjectCard, GitLabProjectCard } from "../ProjectCard";
 
+import KUtils  from "./../../assets/KUtils.png"
+import ModMail from "./../../assets/ModMail.png"
+import HotBot from "./../../assets/HotBot.png"
+
 export default function ProjectPage() {
     return (
         <div>
@@ -48,21 +52,21 @@ export default function ProjectPage() {
                 <GitLabProjectCard
                     title="KUtils"
                     description="A Kotlin Discord API."
-                    imageLink=""
+                    imageLink={KUtils}
                     pageLink=""
                     repoLink=""
                 />
                 <GitLabProjectCard
-                    title="WarmBot"
+                    title="ModMail"
                     description="A report management discord bot."
-                    imageLink=""
+                    imageLink={ModMail}
                     pageLink=""
                     repoLink=""
                 />
                 <GitLabProjectCard
                     title="HotBot"
                     description="A programming server discord bot."
-                    imageLink=""
+                    imageLink={HotBot}
                     pageLink=""
                     repoLink=""
                 />
