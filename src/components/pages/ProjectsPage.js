@@ -9,7 +9,7 @@ import HotBot from "./../../assets/HotBot.png"
 export default function ProjectPage() {
     return (
         <div>
-            <span className="navbar-brand" style={{ fontSize: "xx-large" }}>Personal Projects</span>
+            <span className="navbar-brand" style={{ fontSize: "xx-large", textAlign: "center" }}>Personal Projects</span>
             <div className="row">
                 <GitHubProjectCard
                     title="TouchControl"
@@ -48,7 +48,7 @@ export default function ProjectPage() {
                     pageLink=""
                 />
             </div>
-            <span className="navbar-brand" style={{ fontSize: "xx-large" }}>Contributed Projects</span>
+            <span className="navbar-brand" style={{ fontSize: "xx-large", textAlign: "center" }}>Contributed Projects</span>
             <div className="row">
                 <GitLabProjectCard
                     title="KUtils"
