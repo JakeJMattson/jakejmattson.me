@@ -1,6 +1,7 @@
 import React                                    from "react";
 import { GitHubProjectCard, GitLabProjectCard } from "../ProjectCard";
 
+import EmbedBot from "./../../assets/EmbedBot.png"
 import KUtils  from "./../../assets/KUtils.png"
 import ModMail from "./../../assets/ModMail.png"
 import HotBot from "./../../assets/HotBot.png"
@@ -19,7 +20,7 @@ export default function ProjectPage() {
                 <GitHubProjectCard
                     title="EmbedBot"
                     description="A Discord bot for managing embeds."
-                    imageLink=""
+                    imageLink={EmbedBot}
                     pageLink=""
                 />
                 <GitHubProjectCard
