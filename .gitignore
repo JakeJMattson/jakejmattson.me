@@ -1,4 +1,7 @@
 .idea
+images
+node_modules
+*.json
 
 # dependencies
 /node_modules
