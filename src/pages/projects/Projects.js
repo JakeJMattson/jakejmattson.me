@@ -1,10 +1,8 @@
 import React, {Component} from "react";
 import Header from "../../components/header/Header";
-import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import TopButton from "../../components/topButton/TopButton";
 import {Fade} from "react-reveal";
 import {projectsHeader} from "../../portfolio.js";
-import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 
@@ -42,9 +40,14 @@ class Projects extends Component {
                     </Fade>
                 </div>
                 <div className="repo-cards-div-main">
-                    {ProjectsData.data.map((repo) => {
-                        return <GithubRepoCard repo={repo} theme={theme}/>;
-                    })}
+                    <a href="https://github.com/JakeJMattson/DiscordKt"><img src="https://gh-card.dev/repos/JakeJMattson/DiscordKt.svg?fullname="/></a>
+                    <a href="https://github.com/JakeJMattson/TouchControl"><img src="https://gh-card.dev/repos/JakeJMattson/TouchControl.svg?fullname="/></a>
+                    <a href="https://github.com/JakeJMattson/EmbedBot"><img src="https://gh-card.dev/repos/JakeJMattson/EmbedBot.svg?fullname="/></a>
+                    <a href="https://github.com/JakeJMattson/ModMail"><img src="https://gh-card.dev/repos/JakeJMattson/ModMail.svg?fullname="/></a>
+                    <a href="https://github.com/JakeJMattson/AnyToImage"><img src="https://gh-card.dev/repos/JakeJMattson/AnyToImage.svg?fullname="/></a>
+                    <a href="https://github.com/JakeJMattson/FacialRecognition"><img src="https://gh-card.dev/repos/JakeJMattson/FacialRecognition.svg?fullname="/></a>
+                    <a href="https://github.com/JakeJMattson/PixelDetails"><img src="https://gh-card.dev/repos/JakeJMattson/PixelDetails.svg?fullname="/></a>
+                    <a href="https://github.com/JakeJMattson/TelloKt"><img src="https://gh-card.dev/repos/JakeJMattson/TelloKt.svg?fullname="/></a>
                 </div>
                 <TopButton theme={this.props.theme}/>
             </div>
