@@ -25,7 +25,7 @@ export default function Greeting(props) {
                             >
                                 {greeting.subTitle}
                             </p>
-                            <SocialMedia theme={theme}/>
+                            <SocialMedia/>
                         </div>
                     </div>
                     <div className="greeting-image-div">

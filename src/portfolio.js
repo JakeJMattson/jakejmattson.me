@@ -10,32 +10,27 @@ const socialMediaLinks = [
     {
         name: "Github",
         link: "https://github.com/JakeJMattson",
-        icon: "github",
-        backgroundColor: "#181717"
+        color: "#181717"
     },
     {
         name: "GitLab",
         link: "https://gitlab.com/JakeJMattson",
-        icon: "gitlab",
-        backgroundColor: "#FCA121"
+        color: "#FCA121"
     },
     {
         name: "Docker",
         link: "https://hub.docker.com/u/jakejmattson",
-        icon: "docker",
-        backgroundColor: "#2496ED"
+        color: "#2496ED"
     },
     {
         name: "Discord",
         link: "https://discordapp.com/users/254786431656919051/",
-        icon: "discord",
-        backgroundColor: "#7289DA"
+        color: "#7289DA"
     },
     {
         name: "Mail",
         link: "mailto:jakejmattson@gmail.com",
-        icon: "envelope",
-        backgroundColor: "#D14836"
+        color: "#D14836"
     },
 ];
 
