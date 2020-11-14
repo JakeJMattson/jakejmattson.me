@@ -1,3 +1,3 @@
 # jakejmattson.me
 
-Personal website WIP
+A personal website to showcase my projects.

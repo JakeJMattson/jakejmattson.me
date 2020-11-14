@@ -1,21 +1,19 @@
 .main {
     width: 90%;
     padding: 20px 10px;
-    margin: 0px auto;
-    margin-top: 4rem;
+    margin: 4rem auto 0;
 }
 
 .greet-main {
     width: 90%;
     padding: 20px 10px;
-    margin: 0px auto;
-    margin-top: 2rem;
+    margin: 2rem auto 0;
 }
 
 .gretting-main {
     width: 90%;
     padding: 20px 10px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 .greeting-main {
@@ -41,7 +39,7 @@
 
 .greeting-nickname {
     font-size: 30px;
-    line-height: 0px;
+    line-height: 0;
     font-family: "Google Sans Bold Italic";
 }
 
@@ -75,7 +73,7 @@
 
     .greeting-text {
         font-size: 30px;
-        margin-top: 0px;
+        margin-top: 0;
         text-align: center;
     }
 
@@ -86,7 +84,7 @@
 
     .greeting-text-p {
         font-size: 16px;
-        margin-right: 0px;
+        margin-right: 0;
         line-height: normal;
         text-align: center;
     }
