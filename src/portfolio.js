@@ -9,28 +9,23 @@ const greeting = {
 const socialMediaLinks = [
     {
         name: "Github",
-        link: "https://github.com/JakeJMattson",
-        color: "#181717"
+        link: "https://github.com/JakeJMattson"
     },
     {
         name: "GitLab",
-        link: "https://gitlab.com/JakeJMattson",
-        color: "#FCA121"
+        link: "https://gitlab.com/JakeJMattson"
     },
     {
         name: "Docker",
-        link: "https://hub.docker.com/u/jakejmattson",
-        color: "#2496ED"
+        link: "https://hub.docker.com/u/jakejmattson"
     },
     {
         name: "Discord",
-        link: "https://discordapp.com/users/254786431656919051/",
-        color: "#7289DA"
+        link: "https://discordapp.com/users/254786431656919051/"
     },
     {
         name: "Mail",
-        link: "mailto:jakejmattson@gmail.com",
-        color: "#D14836"
+        link: "mailto:jakejmattson@gmail.com"
     },
 ];
 

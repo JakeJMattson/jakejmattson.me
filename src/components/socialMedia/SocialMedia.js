@@ -7,9 +7,9 @@ export default function socialMedia() {
         <div className="social-media-div">
             {socialMediaLinks.map((media) => {
                 return (
-                    <a href={media.link} className={`icon-button`} target="_blank" rel="noopener noreferrer">
+                    <a href={media.link} className={`social-button`} target="_blank" rel="noopener noreferrer">
                         <img src={require("../../assets/images/" + media.name.toLowerCase() + ".svg")} alt={media.name}
-                             style={{width: 60, height: 60, backgroundColor: media.color, margin: 10}}
+                             style={{width: 50, height: 50, margin: 10}}
                         />
                     </a>
                 );
