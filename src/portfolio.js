@@ -3,7 +3,7 @@ const greeting = {
     logo_name: "JM",
     nickname: "JakeyWakey",
     subTitle:
-        "A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+        "Fueled by a passion for all things tech, I dream of pulling reality closer to science fiction. I like to build things that make life easier and have fun along the way.",
 };
 
 const socialMediaLinks = [
