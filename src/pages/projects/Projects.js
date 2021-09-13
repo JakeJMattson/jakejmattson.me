@@ -35,33 +35,60 @@ class Projects extends Component {
                         </div>
                     </Fade>
                 </div>
+                <div>
+                    <img
+                        src="https://github-readme-stats.vercel.app/api?username=JakeJMattson&hide=issues&count_private=true&show_icons=true&theme=react"
+                        alt="Github Stats"
+                    />
+                </div>
                 <div className="repo-cards-div-main">
                     <a href="https://github.com/JakeJMattson/DiscordKt">
-                        <img src="https://gh-card.dev/repos/JakeJMattson/DiscordKt.svg?fullname=" alt="DiscordKt"/>
+                        <img
+                            alt="DiscordKt"
+                            src="https://gh-card.dev/repos/JakeJMattson/DiscordKt.svg"
+                        />
                     </a>
                     <a href="https://github.com/JakeJMattson/TouchControl">
-                        <img src="https://gh-card.dev/repos/JakeJMattson/TouchControl.svg?fullname="
-                             alt="TouchControl"/>
+                        <img
+                            alt="TouchControl"
+                            src="https://gh-card.dev/repos/JakeJMattson/TouchControl.svg"
+                        />
                     </a>
                     <a href="https://github.com/JakeJMattson/EmbedBot">
-                        <img src="https://gh-card.dev/repos/JakeJMattson/EmbedBot.svg?fullname=" alt="EmbedBot"/>
+                        <img
+                            alt="EmbedBot"
+                            src="https://gh-card.dev/repos/JakeJMattson/EmbedBot.svg"
+                        />
                     </a>
                     <a href="https://github.com/JakeJMattson/ModMail">
-                        <img src="https://gh-card.dev/repos/JakeJMattson/ModMail.svg?fullname=" alt="ModMail"/>
+                        <img
+                            alt="ModMail"
+                            src="https://gh-card.dev/repos/JakeJMattson/ModMail.svg"
+                        />
                     </a>
                     <a href="https://github.com/JakeJMattson/AnyToImage">
-                        <img src="https://gh-card.dev/repos/JakeJMattson/AnyToImage.svg?fullname=" alt="AnyToImage"/>
+                        <img
+                            alt="AnyToImage"
+                            src="https://gh-card.dev/repos/JakeJMattson/AnyToImage.svg"
+                        />
                     </a>
                     <a href="https://github.com/JakeJMattson/FacialRecognition">
-                        <img src="https://gh-card.dev/repos/JakeJMattson/FacialRecognition.svg?fullname="
-                             alt="FacialRecognition"/>
+                        <img
+                            alt="FacialRecognition"
+                            src="https://gh-card.dev/repos/JakeJMattson/FacialRecognition.svg"
+                        />
                     </a>
                     <a href="https://github.com/JakeJMattson/PixelDetails">
-                        <img src="https://gh-card.dev/repos/JakeJMattson/PixelDetails.svg?fullname="
-                             alt="PixelDetails"/>
+                        <img
+                            alt="PixelDetails"
+                            src="https://gh-card.dev/repos/JakeJMattson/PixelDetails.svg"
+                        />
                     </a>
                     <a href="https://github.com/JakeJMattson/TelloKt">
-                        <img src="https://gh-card.dev/repos/JakeJMattson/TelloKt.svg?fullname=" alt="TelloKt"/>
+                        <img
+                            alt="TelloKt"
+                            src="https://gh-card.dev/repos/JakeJMattson/TelloKt.svg"
+                        />
                     </a>
                 </div>
                 <TopButton theme={this.props.theme}/>
